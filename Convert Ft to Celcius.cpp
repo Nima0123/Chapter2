@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-    int Fahrenheit;
+    float Fahrenheit;
     cout<<"Enter the Fahrenheit:";
     cin>>Fahrenheit;
-    cout<<"Celsius is:"<<(5/9)*(Fahrenheit-32);
+    cout<<"Celsius is:"<<(Fahrenheit-32)/1.8;
     return 0;
 }
